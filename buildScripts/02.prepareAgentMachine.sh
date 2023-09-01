@@ -7,7 +7,7 @@ sudo apt -y update
 echo "Updating base libraries..."
 sudo apt-get -y update
 echo "Installing prerequisites..."
-maxRetries=5
+maxRetries=15
 crtRetry=0
 lSuccess=1
 
